@@ -1,6 +1,26 @@
 # Feedback GAN for DNA
 
+## Chiquitto
+
+```virtualenv -p /usr/bin/python3.8 .pyenv```
+To create a virtualenv
+
+```source .pyenv/bin/activate```
+To activate virtualenv
+
+```pip install -r requirements.txt```
+To install updated requirements
+
+Run `python wgan_gp_gene --run_name mirtrons`
+Run wgan_gp_gene with mirtrons data
+
+```
+python wgan_gp_gene --run_name mirtrons
+python amp_predictor_pytorch.py --run_name mirtrons
+```
+
 ## System Requirements and Installation
+
 ```pip install -r requirements.txt```
 - Python 3.6.3
 - PSIPRED libraries should be installed by downloading from [here](http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/) and following [this installation guide](http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/README)
